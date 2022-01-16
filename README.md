@@ -22,14 +22,28 @@ To run this project, install it locally using npm:
 
 ## How To Run
 * Download the app
-* Make all libraries exists
+* Make sure all libraries exists (npm materials)
 * run command ng start (or ng s)
+
+## How To Use (SPA)
+* First page hold the currencies convertor: 1. choose two currencies, 2. choose amount 3. click on "Convert": calculation appears
+* Second page is the Converting History: all converting history appears. To DELETE history, click on "Clear History"
+
 
 ## Features (Implementation)
 Folder CurrencyList
 * Holds two components
-* First is the Currency Convertor
+* First is the Currency Convertor - where the user can convert currencies
 * Second is the History. Please note that the HISTORY WILL NOT BE DELETED ON REFRESH (Bonus)
 * To delete the History please click on "Clear History" button
 Services
-* 
+* CurrencyExchangeWebApiService - all the WEB API calls (get, post, promise). the calls are GENERIC
+  so the observables and the interceptor handle the incoming data and errors
+* JwtInterceptor - service handle all web api calls: headers, TOKEN validations and errors (e.g. HTTP error and other errors) 
+* AuthGuard - handle the validation of users to access routing (client side)
+* GeneralErrorHandlerService - general error handling (been called automaticlly from Interceptor on error)
+* LocalStorageService - handle the client cache (add, delete, get...).
+Models
+* This part part hold data models and DTO (e.g. messages, URLs and so on)
+* DTO - all strings: storageKey, URL, date Format ....
+* IExchangesRatesModel - data model
