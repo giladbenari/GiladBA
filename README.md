@@ -3,7 +3,10 @@ Currency Convertor
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
+* [Prerequisites](#Prerequisites)
+* [Running the application](#Running the application)
+* [How To Use (SPA)](#How To Use (SPA))
+* [Features (Implementation)](#Features (Implementation))
 
 ## General info
 This project is and On-Line Currency Convertor.
@@ -15,12 +18,12 @@ Project is created with:
 
 	
 ## Prerequisites
-To run this project, install it locally using npm:
+To use this project, install it locally using npm:
 * make sure you the correct angular version  (13.0.4)
 * also have Material library (ng add @angular/material)
 
 
-## How To Run
+## Running the application
 * Download the app (src.rar) and extract it
 * Make sure all libraries exists (npm materials)
 * run command ng start (or ng s)
