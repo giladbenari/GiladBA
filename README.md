@@ -14,7 +14,7 @@ Project is created with:
 * Installed Material library 
 
 	
-## Setup 
+## Prerequisites
 To run this project, install it locally using npm:
 * make sure you the correct angular version  (13.0.4)
 * also have Material library (ng add @angular/material)
