@@ -5,7 +5,7 @@ Currency Convertor
 * [Technologies](#technologies)
 * [Prerequisites](#Prerequisites)
 * [Running_the_application](#Running_the_application)
-* [How_To_Use (SPA)](#How_To_Use (SPA))
+* [How_To_Use_(SPA)](#How_To_Use_(SPA))
 * [Features (Implementation)](#Features (Implementation))
 
 ## General info
@@ -28,7 +28,7 @@ To use this project, install it locally using npm:
 * Make sure all libraries exists (npm materials)
 * run command ng start (or ng s)
 
-## How_To_Use (SPA)
+## How_To_Use_(SPA)
 * First page hold the currencies convertor: 1. choose two currencies, 2. choose amount 3. click on "Convert": calculation appears
 * Second page is the Converting History: all converting history appears. To DELETE history, click on "Clear History"
 
