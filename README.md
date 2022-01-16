@@ -5,7 +5,7 @@ Currency Convertor
 * [Technologies](#technologies)
 * [Prerequisites](#Prerequisites)
 * [Running_the_application](#Running_the_application)
-* [How_To_Use_(SPA)](#How_To_Use (SPA))
+* [How_To_Use (SPA)](#How_To_Use (SPA))
 * [Features (Implementation)](#Features (Implementation))
 
 ## General info
