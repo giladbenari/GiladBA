@@ -4,8 +4,8 @@ Currency Convertor
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Prerequisites](#Prerequisites)
-* [Running the application](#Running the application)
-* [How To Use (SPA)](#How To Use (SPA))
+* [Running_the_application](#Running_the_application)
+* [How_To_Use_(SPA)](#How_To_Use (SPA))
 * [Features (Implementation)](#Features (Implementation))
 
 ## General info
@@ -23,7 +23,7 @@ To use this project, install it locally using npm:
 * also have Material library (ng add @angular/material)
 
 
-## Running the application
+## Running_the_application
 * Download the app (src.rar) and extract it
 * Make sure all libraries exists (npm materials)
 * run command ng start (or ng s)
