@@ -14,14 +14,14 @@ Project is created with:
 * Installed Material library 
 
 	
-## Setup
+## Setup 
 To run this project, install it locally using npm:
 * make sure you the correct angular version  (13.0.4)
 * also have Material library (ng add @angular/material)
 
 
 ## How To Run
-* Download the app
+* Download the app (src.rar) and extract it
 * Make sure all libraries exists (npm materials)
 * run command ng start (or ng s)
 
